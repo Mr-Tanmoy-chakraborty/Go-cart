@@ -1,0 +1,715 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Navigation-part {
+    height: 6.8rem;
+    width: 100vw;
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+    box-shadow: 3px 3px 2px rgb(144, 214, 222);
+}
+
+.left-part {
+    display: flex;
+    align-items: center;
+}
+
+#G {
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-style: italic;
+    color-scheme: inherit;
+    color: red;
+    padding: 1px 1px;
+}
+
+#O {
+    font-weight: 900;
+    font-size: xx-large;
+    font-style: italic;
+    color: goldenrod;
+    color-scheme: inherit;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1px 1px;
+}
+
+#Cart {
+    font-weight: 900;
+    font-size: xx-large;
+    color-scheme: calc();
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1px 1px;
+    margin-left: 5px;
+}
+
+.fa-laptop {
+    font-weight: 900;
+    font-size: xx-large;
+    color-scheme: calc();
+    padding: 1px 1px;
+    margin-left: 5px;
+}
+
+/* #first-logo {
+    height: 50px;
+    width: 90px;
+    border-radius: 30px;
+} */
+
+.right-part {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    justify-content: flex-start;
+}
+
+#search-bar {
+    height: 40px;
+    width: 35em;
+    font-weight: 800;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    margin-right: 20px;
+}
+
+.nav-btn {
+    margin-right: 2em;
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-weight: 900;
+    color: black;
+}
+
+.nav-btn:hover {
+    color: black;
+    background-color: whitesmoke;
+    border: 1px solid gold;
+    /* transition: background-color 0.5s ease, color 0.5s ease; */
+}
+
+#home {
+    margin-right: 6em;
+    font-weight: 900;
+}
+
+
+.right-part p:hover {
+    color: rgba(13, 13, 138, 0.715);
+}
+
+.fa-house,
+.fa-cart-shopping,
+.fa-user {
+    color: #2f2626;
+    padding-right: 5px;
+    font-weight: 800;
+}
+
+
+/* middle-part is the part where every thing will display */
+.middle-part {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 30px;
+    width: auto;
+
+
+}
+
+#side {
+    margin-left: 12em;
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+
+
+
+.middle-part-images {
+    display: flex;
+    border: 2px solid red;
+    justify-content: space-around;
+    inset: 4px;
+}
+
+.small_img {
+    height: 75px;
+    width: 80px;
+    display: flex;
+}
+
+/* .first1 {} */
+
+.first2 {
+    display: none;
+    /* height: 60px; */
+    width: 70px;
+    /* justify-content: center; */
+    background-color: rgb(120, 134, 141);
+    color: #e4e4e4;
+    padding-left: 4px;
+}
+
+.first2 p:hover {
+    color: blue;
+}
+
+/* .second1 {} */
+.second2 {
+    display: none;
+    /* height: 60px; */
+    width: 90px;
+    justify-content: center;
+    padding-left: 4px;
+    background-color: rgb(120, 134, 141);
+    color: #e4e4e4;
+    position: static;
+}
+
+.second2 p:hover {
+    color: blue;
+}
+
+/* .Third1 {} */
+
+.Third2 {
+    display: none;
+    /* height: 60px; */
+    width: 100px;
+    justify-content: center;
+    background-color: rgb(120, 134, 141);
+    color: #e4e4e4;
+    padding-left: 4px;
+}
+
+.Third2 p:hover {
+    color: blue;
+}
+
+/* .fourth1 {} */
+
+.fourth2 {
+    display: none;
+    /* height: 60px; */
+    width: 70px;
+    justify-content: center;
+    background-color: rgb(120, 134, 141);
+    color: #e4e4e4;
+    padding-left: 4px;
+}
+
+.fourth2 p:hover {
+    color: blue;
+}
+
+/* .fifth1 {} */
+
+.fifth2 {
+    display: none;
+    /* height: 60px; */
+    width: 70px;
+    justify-content: center;
+    background-color: rgb(120, 134, 141);
+    color: #e4e4e4;
+    padding-left: 5px;
+}
+
+.fifth2 p:hover {
+    color: blue;
+}
+
+/* .sixth1 {} */
+
+.sixth2 {
+    display: none;
+    /* height: 60px; */
+    width: 70px;
+    justify-content: center;
+    background-color: rgb(120, 134, 141);
+    padding-left: 4px;
+    color: #e4e4e4;
+}
+
+.sixth2 p:hover {
+    color: blue;
+}
+
+h5:hover {
+    color: blue;
+}
+
+.fa-solid fa-angle-down {
+    margin-left: 8px;
+    transition: all 0.5s linear;
+    /* position: relative; */
+}
+
+
+
+/* start of another section section-main*/
+
+.second-main {
+    background-color: rgba(138, 134, 134, 0.422);
+    position: inherit;
+}
+
+.second-part {
+    background-color: rgba(138, 134, 134, 0.422);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* position: absolute; */
+    margin-top: 20px;
+    background-image: url("sbi\ card\ offer.png"), url("card_offer.png");
+    background-repeat: no-repeat;
+    background-position: left top, right top;
+    background-size: 370px 300px;
+
+}
+
+.frame {
+    width: 650px;
+    height: 300px;
+    border: 1px solid rgba(138, 134, 134, 0.422);
+    overflow: hidden;
+    background-color: #fff;
+
+}
+
+.slider {
+    display: flex;
+    transition: all 0.5s ease;
+    height: 100%;
+}
+
+.images {
+    /* height: 100%; */
+    min-width: 650px;
+    /* object-fit: cover; */
+    /* flex-shrink: 1; */
+    /* vertical-align: top; */
+}
+
+/* arrows */
+.left {
+    font-weight: 900;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.right {
+
+    font-weight: 900;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+
+
+/* end  of section-main part */
+/* Starting of another section */
+.Main_container {
+    width: 100vw;
+    height: 65vh;
+    background-color: bisque;
+    margin-top: 30px;
+    display: flex;
+    /* overflow: auto; */
+}
+
+/* Hide the link color */
+.hide_link {
+    color: black;
+    text-decoration-line: none;
+}
+
+.Third_container {
+    width: 30vw;
+    height: 20%;
+    margin-left: 12px;
+    margin-top: 6px;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 3px;
+    box-shadow: #cdbdbdad;
+
+    /* background-color: aliceblue; */
+}
+
+
+.Inside_Third_container {
+    width: 100px;
+    height: 180px;
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.Mid_Inside {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo_img {
+    width: 65px;
+    height: 8em;
+    margin-left: 12px;
+}
+
+.text1 {
+    padding-left: 8px;
+}
+
+.text2 {
+    padding-left: 20px;
+}
+
+.hello {
+    width: 5em;
+    height: 5em;
+}
+
+#dl {
+    margin: 10px 15.2em;
+}
+
+/* The next section is wrapper section */
+.wrapper {
+    max-height: 150px;
+    background-color: rgb(57, 136, 136);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-x: scroll;
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 0px;
+}
+
+.wrapper_item {
+    min-width: 100px;
+    height: 200px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+    margin-top: 12px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.wrapper_item:hover {
+    border: 3px solid rgb(11, 42, 151);
+    box-shadow: 3px 3px 2px rgb(4, 78, 124);
+}
+
+.laptop_img {
+    width: 150px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.laptop_img:hover {
+    width: 170px;
+    height: 90px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.up {
+    padding-top: 6px;
+}
+
+/* oneplus new folder html page */
+
+.main-container {
+    background-color: azure;
+    /* height: 100vh; */
+    display: flex;
+}
+
+
+/* left side container in the screen */
+.oneplus1 {
+    /* height: 100vh; */
+    width: 14vw;
+    /* border: 2px solid brown; */
+    margin: 30px;
+    margin-left: 5px;
+    background-color: rgb(184, 228, 236);
+    display: block;
+
+
+}
+
+
+.bar {
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+/* Inside the oneplus1 first div is products */
+.products {
+    border: 0.5px solid black;
+
+
+}
+
+.products_heading {
+    width: 90px;
+    /* height: 30px; */
+    border: 1px solid black;
+    background-color: #FAF9F6;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+
+
+}
+
+/* inside the heading main box and arrow is present */
+.heading {
+    display: flex;
+    position: sticky;
+}
+
+/* arrow part is known as phones_arrow */
+.phones_arrow {
+    padding-top: 10px;
+}
+
+/* products are placed inside Inside_products */
+.Inside_products {
+    padding-left: 25px;
+    display: none;
+    margin-left: 6px;
+    margin-right: 6px;
+
+
+}
+
+.Inside_products p {
+    /* width: 65px; */
+    /* height: 30px; */
+    border: 1px solid black;
+    background-color: azure;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 5px;
+
+}
+
+.Inside_products p:hover {
+    background-color: rgb(135, 206, 250);
+}
+
+.oneplus1 h4 {
+    width: auto;
+    background-color: paleturquoise;
+    margin: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+    color: black;
+
+}
+
+/* right side container in the screen */
+.oneplus2 {
+    width: 100vw;
+    /* border: 2px solid brown; */
+    margin: 30px;
+    background-color: rgb(255, 245, 238);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 3px 2px lightblue;
+
+
+}
+
+.second_oneplus {
+    height: 16em;
+    width: 11em;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.tv1 {
+    height: 11em;
+    width: 13em;
+    margin-top: 12px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+/* phone1 and phone2 are the two parts  div oneplus2 */
+.phone {
+    display: flex;
+    /* flex-direction: ; */
+    /* overflow: hidden; */
+    /* display: none; */
+    /* display will toggle  */
+}
+
+.phone1 {
+    height: 20.5em;
+    width: 15em;
+    margin-left: 20px;
+    margin-top: 15px;
+    border: 1px solid slateblue;
+    margin-right: 1px;
+}
+
+.phone2 {
+    height: 20.5em;
+    width: 45em;
+    margin-top: 15px;
+    border: 1px solid red;
+}
+
+.phone2 h2 {
+    padding-left: 8px;
+}
+
+.phone p {
+    margin-top: 8px;
+}
+
+.star_side {
+    color: goldenrod;
+    padding-left: 20px;
+
+
+}
+
+.fa-solid {
+    margin-left: 2px;
+}
+
+#star {
+    background-color: aliceblue;
+}
+
+.span1 {
+    font-weight: 800;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: black;
+}
+
+
+
+ul {
+    padding-left: 60px;
+}
+
+li {
+    padding: 4px;
+}
+
+.more_details {
+    color: rgb(32, 61, 154);
+
+}
+
+.more_details a {
+    text-decoration: none;
+}
+
+.btn1 {
+    width: 110px;
+    height: 40px;
+    background-color: hsla(49, 96%, 54%, 0.877);
+    border-radius: 8px;
+    color: black;
+    margin-left: 50px;
+    text-shadow: 2px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin-top: 25px;
+    box-shadow: 2px 2px goldenrod;
+}
+
+.btn2 {
+    width: 110px;
+    height: 40px;
+    color: #fff;
+    text-shadow: 2px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    background-color: rgb(13, 157, 214);
+    border-radius: 8px;
+    margin-left: 30px;
+    margin-top: 25px;
+    box-shadow: 2px 2px lightskyblue;
+}
+
+/* samsung display */
+.samsung {
+    display: flex;
+    /* flex-direction: row; */
+
+}
+
+.samsung h2 {
+    margin-left: 10px;
+}
+
+.samsung1 {
+    height: 19em;
+    width: 15em;
+    margin-left: 20px;
+    margin-top: 15px;
+    border: 1px solid slateblue;
+    margin-right: 1px;
+
+}
+
+.samsung2 {
+    height: 19em;
+    width: 45em;
+    margin-top: 15px;
+    border: 1px solid red;
+}
+
+.laptop1 {
+    height: 8em;
+    width: 14em;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.END {
+    width: 100vw;
+    height: 40vh;
+    margin-top: 35px;
+    background-color: rgb(22, 27, 100);
+}
+
+.END h4 {
+    color: #FAF9F6;
+    padding-top: 12em;
+    padding-left: 22em;
+}
